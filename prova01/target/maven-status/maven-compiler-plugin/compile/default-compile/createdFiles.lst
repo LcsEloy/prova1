@@ -1,0 +1,6 @@
+br\com\contmatic\empresa\Endereco.class
+br\com\contmatic\empresa\ValidadorCpfCnpj.class
+br\com\contmatic\empresa\Cliente.class
+br\com\contmatic\empresa\Empresa.class
+br\com\contmatic\empresa\Telefone.class
+br\com\contmatic\empresa\Funcionario.class

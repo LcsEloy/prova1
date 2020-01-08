@@ -30,14 +30,12 @@ public class Telefone {
     }
 
     private void verificaDddInvalido(Integer ddd) {
-        Integer dddInvalido[] = { 20, 23, 25, 26, 29, 30, 36, 39, 40, 50, 52, 56, 57, 58, 59, 60, 70, 72, 76, 78, 80, 90 };
-        
+        Integer dddInvalido[] = { 20, 23, 25, 26, 29, 30, 36, 39, 40, 50, 52, 56, 57, 58, 59, 60, 70, 72, 76, 78, 80, 90 };        
         int i;
         for(i = 0 ; i < 21 ; i++) {
             if (ddd == dddInvalido[i]) {
                 throw new IllegalArgumentException("DDD Inválido.");
             }
-
         }
     }
 
